@@ -8,7 +8,7 @@ def lay(frame1):
     # frame1.overrideredirect(True)
     p1 = PhotoImage(file='res/bit.png')
     frame1.iconphoto(False,p1)
-    frame1.title("Little Brother")
+    frame1.title("Tklogin-Firebase")
     def ch():
         # Check Internet is conected or not,raise error accordingly.
         if loading.check_internet()!=1:
