@@ -20,7 +20,7 @@ The joy behind codeing.
 <br>
 
 ## Screenshots
-![](https://github.com/Ankesh054-official/Tkinter-firebase/blob/master/Screenshots/tklogin-firebase.png)
+![](https://github.com/Ankesh054-official/Tkinter-firebase/blob/master/Screenshorts/tklogin-firebase.png)
 
 <br>
 <br>
