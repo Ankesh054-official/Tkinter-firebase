@@ -3,12 +3,11 @@
 
 from tkinter import *
 from tkinter import messagebox
-from os import getcwd,mkdir,chdir
 from core import main
 from Guis import signin_layout
 
+
 def create_ac(self,title1):
-    global dic, endis, entr, ent
     self.destroy()
     self = Tk()
     p1 = PhotoImage(file='res/bit.png')
@@ -26,11 +25,7 @@ def create_ac(self,title1):
     lb = Label(self, text="Create Your Account", bg="black", fg="white", font=("comicsansms", 30, "bold"),
                    relief=FLAT).place(x=500, y=20)
     lb = Label(self, text="If you already have an account, then make ", bg="black", fg="grey",
-                   font=("comicsansms", 12, "bold"),
-                   relief=FLAT).place(x=500, y=650)
-    entr = range(5)  # Name, Full_Name, Email, password
-    btn = range(4)  # cancel, create ,exit, signin
-    checkbox = range(1)  # Accept terms and conditions
+                   font=("comicsansms", 12, "bold"),relief=FLAT).place(x=500, y=650)
     canvas = range(1)  # capita
     y, indec = 150, 0
     for i in endis:

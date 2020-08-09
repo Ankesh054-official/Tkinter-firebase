@@ -3,8 +3,9 @@
 from tkinter import *
 from core import main
 from Guis import create_account_layout,forgot_password_layout
+
+
 def signin(self,title1):
-    global dic, endis, entr, ent
     self.destroy()
     self = Tk()
     p1 = PhotoImage(file='res/bit.png')
@@ -25,18 +26,12 @@ def signin(self,title1):
                relief=FLAT).place(x=500, y=20)
     lb = Label(self, text="If you are a new user than ,", bg="black", fg="white", font=("comicsansms", 12, "bold"),
                relief=FLAT).place(x=610,y=650)
-    com = [lambda self=self: main.login, lambda self=self: main.cancel, lambda self=self: main.forgotpassword]
-    entr = range(2)  # email, password
-    btn = range(4)  # cancel, signin ,exit, forgot password
-    canvas = range(1)  # capita
-    ent = []  # list for saving crudiential
-    y, indec, n = 150, 0, None
+    y, n = 150, None
     for i in endis:
         l = Label(self, text="{0}".format(i), bg="black", fg="Grey",
                   font=("comicsansms", 16, "bold"),
                   relief=FLAT).place(x=50, y=y)
         y += 100
-        indec += 1
     e0 = Entry(self, relief=FLAT, font=("comicsansms", 20, "bold"))
     e0.place(x=250, y=140)
     e1 = Entry(self, relief=FLAT, show="*", font=("comicsansms", 20, "bold"))
