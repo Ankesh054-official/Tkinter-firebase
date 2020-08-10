@@ -6,7 +6,6 @@ from tkinter import messagebox
 from core import main
 from Guis import signin_layout
 
-
 def create_ac(self,title1):
     self.destroy()
     self = Tk()
