@@ -8,18 +8,12 @@ from Guis import create_account_layout,forgot_password_layout
 def signin(self,title1):
     self.destroy()
     self = Tk()
-    p1 = PhotoImage(file='res/bit.png')
+    p1 = PhotoImage(file='../res/bit.png')
     self.iconphoto(False, p1)
     self.geometry("1200x900")
     self.minsize(980, 660)
     self.title(title1)
     self.config(bg="black")
-    img = PhotoImage(file="res/canvalogo1.png")
-    label = Label(self, image=img)
-    label.place(x=0, y=-1)
-    # photo = PhotoImage(file="res/back.png")
-    # x_lable = Label(image=photo)
-    # Label.pack(self=x_lable)
     dic = ["Signin", "Create Account", "Exit", "Forgot Password"]
     endis = ["Email", "Password"]
     lb = Label(self, text="SignIn to your Account", bg="black", fg="white", font=("comicsansms", 30, "bold"),
