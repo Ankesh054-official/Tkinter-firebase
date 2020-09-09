@@ -9,9 +9,9 @@ def lay(frame1):
     frame1.title("Tklogin-Firebase")
     # Checks Internet is conected or not,raise error accordingly.
     def ch():
-        if loading.check_internet()!=1:
+        if loading.check_internet(frame1)!=1:
             ch()
-    # ch()
+    ch()
     btn1 = Button(frame1, activebackground="black", activeforeground="white", text="Register",
                   font=("comicsansms", 12, "bold"),
                   relief=SUNKEN, borderwidth=3,
@@ -28,12 +28,12 @@ def lay(frame1):
 
 
 root = Tk()
-root.minsize(713,398)
+root.minsize(590,333)
 root.maxsize(713,398)
 root.config(bg="black")
-p1 = PhotoImage(file='res/bit.png')
+p1 = PhotoImage(file='../res/bit.png')
 root.iconphoto(False,p1)
-img = PhotoImage(file="res/canvalogo.png")
+img = PhotoImage(file="../res/canvalogo1.png")
 label = Label(root, image=img)
 label.place(x=-1, y=-1)
 lay(root)
