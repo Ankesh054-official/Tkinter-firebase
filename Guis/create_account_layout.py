@@ -9,15 +9,12 @@ from Guis import signin_layout
 def create_ac(self,title1):
     self.destroy()
     self = Tk()
-    p1 = PhotoImage(file='res/bit.png')
+    p1 = PhotoImage(file='../res/bit.png')
     self.iconphoto(False, p1)
     self.geometry("1200x900")
     self.minsize(980, 660)
     self.title(title1)
     self.config(bg="black")
-    img = PhotoImage(file="res/canvalogo1.png")
-    label = Label(self, image=img)
-    label.place(x=0, y=-1)
     var = IntVar()
     dic = ["Create", "Signin", "Exit", "Accept Terms and Conditions"]
     endis = ["First Name", "Last Name", "Email", "Password", "Confirm Password"]
