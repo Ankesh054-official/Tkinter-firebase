@@ -22,8 +22,7 @@ The joy behind codeing.
 <br>
 
 ## Screenshots
-![](https://github.com/Ankesh054-official/Tkinter-firebase/blob/master/Screenshorts/tklogin-firebase.png)
-
+<img align="left" alt="Appication screenshort" width="300" src="https://raw.githubusercontent.com/Ankesh054-official/Tkinter-firebase/master/Screenshorts/tkinter.png" />
 <br>
 <br>
 
