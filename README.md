@@ -25,6 +25,8 @@ The joy behind codeing.
 <img align="left" alt="Appication screenshort" width="300" src="https://raw.githubusercontent.com/Ankesh054-official/Tkinter-firebase/master/Screenshorts/tkinter.png" />
 <br>
 <br>
+<hr>
+
 
 ## LicenseMIT © [Ankesh054-official](https://github.com/Ankesh054-official)
 =======
